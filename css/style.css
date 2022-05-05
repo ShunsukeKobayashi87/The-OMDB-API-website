@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.movie-title{
+    display: block;
+    background: none;
+    border-color: #e7e7e7;
+    margin-top: 15px;
+}
+.movie-title:hover{
+    cursor: pointer;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.left-section{
+    max-width: 30%;
+}
+.right-section{
+    display: flex;
+    max-width: 70%;
+}
+.details{
+    margin-top: 15px;
+}

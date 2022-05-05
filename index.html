@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 4 OMDB API and Deepl API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      If you click a movie title, details of the movie will be shown. Click plot
+      button to translate plot to Japanese
+    </h1>
+    <div class="flex-container">
+      <section class="left-section">
+        <h2>Assignment 4</h2>
+        <input
+          type="text"
+          id="searchTerm"
+          placeholder="Enter movie title here!"
+        />
+        <button id="submit">Search</button>
+        <div class="title-list">
+          <!-- <button class="movie-title"></button> css border noen background none  js add listener -->
+        </div>
+      </section>
+      <section class="right-section">
+        <div class="details-container">
+          <div class="title-container details"></div>
+          <div class="year-container details"></div>
+          <div class="imdbID-container details"></div>
+          <div class="plot-container details"></div>
+        </div>
+        <div class="poster-container">
+          <img src="" alt="" class="poster-image" />
+        </div>
+      </section>
+    </div>
+    
+  </body>
+</html>
