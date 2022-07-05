@@ -3,6 +3,9 @@ body{
     max-width: 100%;
     width: 100%;
     background-color: lightgray;
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: 100vh;
 }
 
 .movie-title{
